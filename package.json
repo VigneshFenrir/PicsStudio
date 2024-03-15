@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://vigneshfenrir.github.io/PicsStudio/",
+  "homepage":"https://vigneshfenrir.github.io/picstudio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
