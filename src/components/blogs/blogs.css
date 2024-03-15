@@ -1,0 +1,59 @@
+.bg-blog {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    transform: rotate(-45deg);
+    margin-top: -125px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.blog-box {
+    width: 80%;
+    margin: auto;
+}
+
+.box1 {
+    margin-top: 100%;
+
+    img {
+        filter: grayscale(100%);
+    }
+
+    img:hover {
+        animation: greyhover .5s infinite;
+    }
+}
+
+@keyframes greyhover {
+    0% {
+        filter: grayscale();
+    }
+
+    100% {
+        filter: unset;
+        opacity: 0.9;
+    }
+
+}
+
+
+
+.box2 {
+    margin-top: 0%;
+
+}
+
+
+
+.blog-top {
+    margin: 100px !important;
+}
+
+
+.blog-container {
+    position: relative;
+    margin: auto;
+}

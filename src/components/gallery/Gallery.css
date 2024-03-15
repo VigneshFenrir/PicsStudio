@@ -1,0 +1,58 @@
+.gallery-bg {
+    width: 100%;
+    top: 10%;
+    margin-left: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: -1;
+    ;
+
+    img {
+        width: 100%;
+
+    }
+}
+
+.gallery-container {
+    position: relative;
+    margin: auto;
+}
+
+.imgbox {
+    position: relative;
+    margin: 10px;
+
+    img {
+        width: 350px;
+        border-radius: 35px;
+    }
+}
+
+.gallery-content {
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    z-index: 5;
+}
+
+
+
+.b1 {
+    position: relative;
+    left: 30%;
+}
+
+.b2 {
+    position: relative;
+    left: 10%;
+}
+
+.b3 {
+    position: relative;
+    left: 60%;
+}
+
+.b4 {
+    position: relative;
+    left: 90%;
+}

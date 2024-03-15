@@ -1,0 +1,37 @@
+.photo {
+    padding-block: 80px;
+
+    .card {
+        padding: 20px;
+
+
+
+
+    }
+
+
+    .profileW {
+        width: 125px;
+        position: relative;
+        margin-top: -75px;
+
+        align-self: center;
+    }
+
+
+
+    .profile {
+
+        width: 100%;
+
+
+
+    }
+}
+
+.client_sclk {
+    width: 400px;
+
+    padding: 30px;
+
+}

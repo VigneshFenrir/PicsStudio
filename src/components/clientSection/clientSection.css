@@ -1,0 +1,43 @@
+.client-bg {
+    width: 100%;
+    position: absolute;
+    transform: rotate(45deg);
+
+    img {
+        width: 100%;
+
+    }
+}
+
+.camera-imgBox {
+    margin-top: 90%;
+
+    img {
+        width: 100%;
+    }
+
+}
+
+.client-box {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.Cslick {
+    flex: 0 0 50%;
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+
+
+
+.client-row {
+    margin: 15px !important;
+}
+
+.client-sclk {
+    margin: 0 auto;
+}

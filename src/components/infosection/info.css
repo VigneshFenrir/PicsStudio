@@ -1,0 +1,100 @@
+.info-container {
+    color: white;
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .info-main {
+
+
+        ul {
+            text-transform: capitalize;
+            list-style: none;
+
+            li {
+                padding: 3px;
+                transition: 400ms;
+
+            }
+
+            li:hover {
+                border: 1px solid white;
+                border-radius: 4px;
+                background-color: white;
+                color: black;
+            }
+
+            li:hover a {
+                color: black;
+            }
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contactInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-transform: capitalize;
+
+            .d-flex {
+                gap: 10px !important;
+            }
+
+
+
+
+        }
+    }
+
+    .social-media {
+        background-color: rgb(199, 199, 128);
+        padding: 40px;
+        border-radius: 5px;
+        gap: 20px;
+        justify-content: space-between;
+        /* margin-top: 40px; */
+        position: relative;
+        z-index: 999;
+
+        a {
+            border: 1px black solid;
+            padding: 10px;
+            border-radius: 4px;
+            transition: 400ms;
+        }
+
+        .facebook:hover {
+            background-color: rgb(21, 48, 220);
+        }
+
+
+        .in:hover {
+            background-color: rgb(62, 128, 148);
+            color: white;
+        }
+
+        .insta:hover {
+            background-color: rgb(235, 176, 196);
+
+
+        }
+
+        .ytube:hover {
+            background-color: #ef0e0e;
+            color: red;
+        }
+
+        .twitter:hover {
+            background-color: rgb(17, 195, 226);
+            color: white;
+        }
+    }
+}

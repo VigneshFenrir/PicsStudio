@@ -1,0 +1,14 @@
+.app {
+
+    background-color: black;
+
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-block: 120px;
+}
