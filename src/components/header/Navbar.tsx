@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className={`sliderr `}>
             <ul className={`list-group  ${slider ? "left" : ""} `}>
               <li className="list-group-item">
-                <a href="">home</a>
+                <a href="">home </a>
               </li>
               <li className="list-group-item">
                 <a href="">about</a>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <a href="" className="nav-link active">
-                      home
+                      landing
                     </a>
                   </li>
                   <li className="nav-item">
